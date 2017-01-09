@@ -1,3 +1,21 @@
+@import "mixins.less";
+@font-face {
+	font-family: "RSB";
+	src: url('../fonts/RobotoSlab-Bold.ttf');
+}
+@font-face {
+	font-family: "RSL";
+	src: url('../fonts/RobotoSlab-Light.ttf');
+}
+@font-face {
+	font-family: "RSR";
+	src: url('../fonts/RobotoSlab-Regular.ttf');
+}
+@font-face {
+	font-family: "RST";
+	src: url('../fonts/RobotoSlab-Thin.ttf');
+}
+
 .carousel-fade {
 	.carousel-item {
 		display: block;
@@ -28,6 +46,56 @@
 		&:hover {
 			.slider-control	{
 				opacity: 1;
+			}
+		}
+		.carousel-inner {
+			.carousel-item {
+				.banner-text {
+					position: absolute;
+					z-index: 9;
+					top: 280px;
+					left: 0;
+					right: 0;
+					margin: auto;
+					text-align: center;
+					.banner-heading {
+						font-size: 74px;
+						font-family: 'RSB';
+						line-height: 60px;
+						color: #ffffff;
+						margin-bottom: 55px;
+						text-transform: uppercase;
+					}
+					.sub-heading {
+						font-family: "RSL";
+						line-height: 40px;
+						font-size: 30px;
+						color: #ffffff;
+						margin-bottom: 0;
+					}
+					.view-portfolio {
+						color: #ffffff;
+						font-family: 'RSR';
+						background: #3FA9F5;
+						padding: 9px 28px;
+						margin: 50px 0 0;
+						.border-radius(3px, 3px, 3px, 3px);
+						&:first-letter {
+							text-transform: capitalize;
+						}
+					}
+				}
+				.banner-text.interactive-media {
+					.banner-heading {
+						font-size: 60px;
+						font-family: 'RSR';
+					}
+					.sub-heading {
+						color: #cfcfcf;
+						font-family: "RSL";
+						font-size: 24px;
+					}
+				}
 			}
 		}
 		.slider-control {

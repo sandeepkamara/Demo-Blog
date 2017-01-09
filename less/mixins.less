@@ -1,0 +1,16 @@
+/* Border Radius Mixin */
+.border-radius(@ltr: 3px, @trr: 3px, @brr: 3px, @lbr: 3px) {
+	-webkit-border-radius: @arguments;
+	-moz-border-radius: @arguments;
+	-ms-border-radius: @arguments;
+	-o-border-radius: @arguments;
+	border-radius: @arguments;
+}
+
+.transition(@prop: all, @dur: 0.5s, @fun: ease-in-out, @delay: 0.5s) {
+	-webkit-transition: @arguments;
+	-moz-transition: @arguments;
+	-ms-transition: @arguments;
+	-o-transition: @arguments;
+	transition: @arguments;
+}

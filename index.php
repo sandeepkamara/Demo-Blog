@@ -17,9 +17,20 @@
 			<div class="carousel-inner" role="listbox">
 				<div class="carousel-item active">
 					<img class="d-block img-fluid" src="images/slider1.jpg" alt="First slide" />
+					<div class="banner-text">					
+						<h1 class="banner-heading">we rock your site</h1>
+						<p class="sub-heading">this one page or multi page template</p>
+						<p class="sub-heading">will power your business</p>
+						<a href="#" class="btn btn-default view-portfolio">view our portfolio</a>
+					</div>
 				</div>
 				<div class="carousel-item">
 					<img class="d-block img-fluid" src="images/slider2.jpg" alt="Second slide" />
+					<div class="banner-text interactive-media">					
+						<h1 class="banner-heading">interactive media</h1>
+						<p class="sub-heading">focused to deliver only the best results</p>
+						<p class="sub-heading">with a custom experience</p>
+					</div>
 				</div>
 			</div>
 			<a class="carousel-control-prev slider-control" href="#carouselExampleControls" role="button" data-slide="prev">
