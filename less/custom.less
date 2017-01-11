@@ -236,50 +236,95 @@
 
 /* Common Code Starts Here */
 .section-spacing {
-	padding: 115px 0;
+	padding: 50px 0;
 	float: left;
 	width: 100%;
+}
+.heading {
+	font-size: 60px;
+	font-family: "RSL";
+	color: #000000;		
+	position: relative;
+	text-transform: uppercase;
+	padding-bottom: 25px;
+	margin-bottom: 25px;
+	text-align: center;
+	&:after {
+		position: absolute;
+		content: "";
+		left: 0;
+		right: 0;
+		bottom: 0;
+		width: 200px;
+		background: #3FA9F5;
+		height: 3px;
+		margin: auto;
+	}
+}
+.sub-heading {
+	font-size: 16px;
+	font-family: "RSL";
+	margin-bottom: 60px;
+	text-align: center;
+	strong {
+		color: #000000;
+		font-family: "RSB";
+	}
 }
 /* Common Code Ends Here */
 
 /* About Us */
 #about-us {
+	padding-top: 100px;
 	background: #F5F5F5;
 	text-align: center;
-	.heading {
-		font-size: 60px;
-		font-family: "RSL";
-		color: #000000;		
-		position: relative;
-		text-transform: uppercase;
-		padding-bottom: 25px;
-		margin-bottom: 25px;
-		&:after {
-			position: absolute;
-			content: "";
-			left: 0;
-			right: 0;
-			bottom: 0;
-			width: 200px;
-			background: #3FA9F5;
-			height: 3px;
+	.about-wrapper {
+		padding: 25px 30px;
+		.icon-wrapper {
+			width: 125px;
+			height: 125px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-radius: 100%;
+			overflow: hidden;
+			background: #000000;
+			position: relative;
 			margin: auto;
+			i {
+				font-size: 65px;
+				line-height: normal;
+				color: #ffffff;
+			}
 		}
-	}
-	.sub-heading {
-		font-size: 16px;
-		font-family: "RSL";
-		strong {
+		.about-title {
+			text-transform: capitalize;
+			font-size: 24px;
 			color: #000000;
-			font-family: "RSB";
+			font-weight: normal;
+			margin: 15px 0 10px;
+			font-family: "RSR";
 		}
-	}
-	.icon-wrapper {
-		width: 125px;
-		height: 125px;
-		border-radius: 100%;
-		overflow: hidden;
-		position: relative;
-		margin: auto;
+		.about-desc {
+			margin-bottom: 5px;
+			font-size: 16px;
+			color: #000000;
+			font-family: "RSL";
+		}
+		.learn-more {
+			margin-top: 12px;
+			background: none;
+			border-radius: 5px;
+			padding: 10px 12px;
+			border: 1px solid #000;
+			font-family: "RSR";
+			color: #000;
+			transition: all .5s;
+			-webkit-transition: all .5s;
+			-moz-transition: all .5s;
+			&:first-letter {
+				text-transform: capitalize;
+			}
+		}
 	}
 }

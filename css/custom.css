@@ -223,17 +223,11 @@
 }
 /* Common Code Starts Here */
 .section-spacing {
-  padding: 115px 0;
+  padding: 50px 0;
   float: left;
   width: 100%;
 }
-/* Common Code Ends Here */
-/* About Us */
-#about-us {
-  background: #F5F5F5;
-  text-align: center;
-}
-#about-us .heading {
+.heading {
   font-size: 60px;
   font-family: "RSL";
   color: #000000;
@@ -241,8 +235,9 @@
   text-transform: uppercase;
   padding-bottom: 25px;
   margin-bottom: 25px;
+  text-align: center;
 }
-#about-us .heading:after {
+.heading:after {
   position: absolute;
   content: "";
   left: 0;
@@ -253,20 +248,70 @@
   height: 3px;
   margin: auto;
 }
-#about-us .sub-heading {
+.sub-heading {
   font-size: 16px;
   font-family: "RSL";
+  margin-bottom: 60px;
+  text-align: center;
 }
-#about-us .sub-heading strong {
+.sub-heading strong {
   color: #000000;
   font-family: "RSB";
 }
-#about-us .icon-wrapper {
+/* Common Code Ends Here */
+/* About Us */
+#about-us {
+  padding-top: 100px;
+  background: #F5F5F5;
+  text-align: center;
+}
+#about-us .about-wrapper {
+  padding: 25px 30px;
+}
+#about-us .about-wrapper .icon-wrapper {
   width: 125px;
   height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 100%;
   overflow: hidden;
+  background: #000000;
   position: relative;
   margin: auto;
+}
+#about-us .about-wrapper .icon-wrapper i {
+  font-size: 65px;
+  line-height: normal;
+  color: #ffffff;
+}
+#about-us .about-wrapper .about-title {
+  text-transform: capitalize;
+  font-size: 24px;
+  color: #000000;
+  font-weight: normal;
+  margin: 15px 0 10px;
+  font-family: "RSR";
+}
+#about-us .about-wrapper .about-desc {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #000000;
+  font-family: "RSL";
+}
+#about-us .about-wrapper .learn-more {
+  margin-top: 12px;
+  background: none;
+  border-radius: 5px;
+  padding: 10px 12px;
+  border: 1px solid #000;
+  font-family: "RSR";
+  color: #000;
+  transition: all .5s;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+}
+#about-us .about-wrapper .learn-more:first-letter {
+  text-transform: capitalize;
 }
 /*# sourceMappingURL=custom.css.map */

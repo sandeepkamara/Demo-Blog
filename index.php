@@ -95,7 +95,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<h1 class="heading">about us</h1>
+					<h1 class="heading">About Us</h1>
 					<p class="sub-heading">Our development agency is committed to providing you the <strong>best service</strong>.</p>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
@@ -104,9 +104,41 @@
 							<i class="fa fa-globe"></i>
 						</div>
 						<h2 class="about-title">our mission</h2>
-						<p class="about-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique fuga, laboriosam laborum est? Qui minima error cumque culpa ad, aliquid commodi similique, harum quam hic nihil! Vitae neque, corrupti quos.</p>
-						<button type="button" class="">learn more</button>
+						<p class="about-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed pretium elit, quis consectetur leo</p>
+						<a href="#" class="btn btn-default learn-more">learn more</a>
 					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					<div class="about-wrapper">
+						<div class="icon-wrapper">
+							<i class="fa fa-thumbs-o-up"></i>
+						</div>
+						<h2 class="about-title">our values</h2>
+						<p class="about-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed pretium elit, quis consectetur leo</p>
+						<a href="#" class="btn btn-default learn-more">learn more</a>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					<div class="about-wrapper">
+						<div class="icon-wrapper">
+							<i class="fa fa-compass"></i>
+						</div>
+						<h2 class="about-title">our philosophy</h2>
+						<p class="about-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed pretium elit, quis consectetur leo</p>
+						<a href="#" class="btn btn-default learn-more">learn more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="our-team" class="section-spacing">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<h1 class="heading">our team</h1>
+					<p class="sub-heading">The <strong>awesome people</strong> behind our brand ... and their life motto.</p>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 					<div class="about-wrapper">
@@ -114,18 +146,28 @@
 							<i class="fa fa-globe"></i>
 						</div>
 						<h2 class="about-title">our mission</h2>
-						<p class="about-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias aut iste impedit id ipsam cumque error modi, ab eveniet. In perspiciatis, sequi dolores officiis ea nisi incidunt inventore quo natus.</p>
-						<button type="button" class="">learn more</button>
+						<p class="about-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed pretium elit, quis consectetur leo</p>
+						<a href="#" class="btn btn-default learn-more">learn more</a>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 					<div class="about-wrapper">
 						<div class="icon-wrapper">
-							<i class="fa fa-globe"></i>
+							<i class="fa fa-thumbs-o-up"></i>
 						</div>
-						<h2 class="about-title">our mission</h2>
-						<p class="about-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet accusamus assumenda, culpa eius laudantium architecto ratione tempore ducimus, eveniet adipisci commodi illum aspernatur doloribus ad saepe magni dolorum porro odit.</p>
-						<button type="button" class="">learn more</button>
+						<h2 class="about-title">our values</h2>
+						<p class="about-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed pretium elit, quis consectetur leo</p>
+						<a href="#" class="btn btn-default learn-more">learn more</a>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					<div class="about-wrapper">
+						<div class="icon-wrapper">
+							<i class="fa fa-compass"></i>
+						</div>
+						<h2 class="about-title">our philosophy</h2>
+						<p class="about-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed pretium elit, quis consectetur leo</p>
+						<a href="#" class="btn btn-default learn-more">learn more</a>
 					</div>
 				</div>
 			</div>
