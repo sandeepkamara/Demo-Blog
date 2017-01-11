@@ -149,6 +149,24 @@
   padding: 0;
   background: none;
 }
+#header .navbar .navbar-brand {
+  color: #312e2e;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-family: "RSR";
+  padding-right: 15px;
+  position: relative;
+}
+#header .navbar .navbar-brand:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -5px;
+  width: 1px;
+  height: 72px;
+  background: #dddddd;
+}
 #header .navbar .navbar-nav li.nav-item .nav-link {
   font-size: 14px;
   font-family: "RSR";
@@ -171,7 +189,84 @@
   background: #F5F5F5;
   border-bottom: 2px solid #3FA9F5;
 }
+#header .navbar .social-icons {
+  padding: 0 20px;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+}
+#header .navbar .social-icons .icons {
+  margin: 0;
+}
 #header .navbar .social-icons .icons li {
   display: inline-block;
+}
+#header .navbar .social-icons .icons li a {
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 24px;
+  margin: 23px 0;
+  text-decoration: none;
+  color: #ffffff;
+}
+#header .navbar .social-icons .icons li .fb {
+  background: #3B5998;
+}
+#header .navbar .social-icons .icons li .tw {
+  background: #00ACED;
+  margin: 0 5px;
+}
+#header .navbar .social-icons .icons li .gp {
+  background: #DD4B39;
+}
+/* Common Code Starts Here */
+.section-spacing {
+  padding: 115px 0;
+  float: left;
+  width: 100%;
+}
+/* Common Code Ends Here */
+/* About Us */
+#about-us {
+  background: #F5F5F5;
+  text-align: center;
+}
+#about-us .heading {
+  font-size: 60px;
+  font-family: "RSL";
+  color: #000000;
+  position: relative;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+#about-us .heading:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 200px;
+  background: #3FA9F5;
+  height: 3px;
+  margin: auto;
+}
+#about-us .sub-heading {
+  font-size: 16px;
+  font-family: "RSL";
+}
+#about-us .sub-heading strong {
+  color: #000000;
+  font-family: "RSB";
+}
+#about-us .icon-wrapper {
+  width: 125px;
+  height: 125px;
+  border-radius: 100%;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
 }
 /*# sourceMappingURL=custom.css.map */

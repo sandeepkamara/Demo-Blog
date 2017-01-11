@@ -12,6 +12,7 @@
 	<link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" />
 </head>
 <body>
+
 	<section id="banner-slider">
 		<div id="carouselExampleControls" class="carousel carousel-fade slide" data-ride="carousel">
 			<div class="carousel-inner" role="listbox">
@@ -75,13 +76,13 @@
 					<div class="social-icons">
 						<ul class="list-inline icons">
 							<li>
-								<a href="#" class="fa fa-facebook"></a>
+								<a href="#" class="fa fa-facebook fb"></a>
 							</li>
 							<li>
-								<a href="#" class="fa fa-twitter"></a>
+								<a href="#" class="fa fa-twitter tw"></a>
 							</li>
 							<li>
-								<a href="#" class="fa fa-google-plus"></a>
+								<a href="#" class="fa fa-google-plus gp"></a>
 							</li>
 						</ul>
 					</div>
@@ -89,6 +90,48 @@
 			</nav>		
 		</div>
 	</header>
+
+	<section id="about-us" class="section-spacing">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<h1 class="heading">about us</h1>
+					<p class="sub-heading">Our development agency is committed to providing you the <strong>best service</strong>.</p>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					<div class="about-wrapper">
+						<div class="icon-wrapper">
+							<i class="fa fa-globe"></i>
+						</div>
+						<h2 class="about-title">our mission</h2>
+						<p class="about-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique fuga, laboriosam laborum est? Qui minima error cumque culpa ad, aliquid commodi similique, harum quam hic nihil! Vitae neque, corrupti quos.</p>
+						<button type="button" class="">learn more</button>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					<div class="about-wrapper">
+						<div class="icon-wrapper">
+							<i class="fa fa-globe"></i>
+						</div>
+						<h2 class="about-title">our mission</h2>
+						<p class="about-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias aut iste impedit id ipsam cumque error modi, ab eveniet. In perspiciatis, sequi dolores officiis ea nisi incidunt inventore quo natus.</p>
+						<button type="button" class="">learn more</button>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					<div class="about-wrapper">
+						<div class="icon-wrapper">
+							<i class="fa fa-globe"></i>
+						</div>
+						<h2 class="about-title">our mission</h2>
+						<p class="about-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet accusamus assumenda, culpa eius laudantium architecto ratione tempore ducimus, eveniet adipisci commodi illum aspernatur doloribus ad saepe magni dolorum porro odit.</p>
+						<button type="button" class="">learn more</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/tether.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>

@@ -157,6 +157,24 @@
 	.navbar {
 		padding: 0;
 		background: none;
+		.navbar-brand {
+			color: rgb(49,46,46);
+			font-weight: 700;
+			text-transform: uppercase;
+			font-size: 36px;
+			font-family: "RSR";
+			padding-right: 15px;
+			position: relative;
+			&:after {
+				content: "";
+				position: absolute;
+				right: 0;
+				top: -5px;
+				width: 1px;
+				height: 72px;
+				background: #dddddd;
+			}
+		}
 		.navbar-nav {
 			li.nav-item {
 				.nav-link {
@@ -182,11 +200,86 @@
 			}
 		}
 		.social-icons {
+			padding: 0 20px;
+			border-left: 1px solid #dddddd;
+			border-right: 1px solid #dddddd;
 			.icons {
+				margin: 0;
 				li {
 					display: inline-block;
+					a {
+						border-radius: 100%;
+						width: 25px;
+						height: 25px;
+						font-size: 15px;
+						text-align: center;
+						line-height: 24px;
+						margin: 23px 0;
+						text-decoration: none;
+						color: #ffffff;
+					}
+					.fb {
+						background: #3B5998;
+					}
+					.tw {
+						background: #00ACED;
+						margin: 0 5px;
+					}
+					.gp {
+						background: #DD4B39;
+					}
 				}
 			}
 		}
+	}
+}
+
+/* Common Code Starts Here */
+.section-spacing {
+	padding: 115px 0;
+	float: left;
+	width: 100%;
+}
+/* Common Code Ends Here */
+
+/* About Us */
+#about-us {
+	background: #F5F5F5;
+	text-align: center;
+	.heading {
+		font-size: 60px;
+		font-family: "RSL";
+		color: #000000;		
+		position: relative;
+		text-transform: uppercase;
+		padding-bottom: 25px;
+		margin-bottom: 25px;
+		&:after {
+			position: absolute;
+			content: "";
+			left: 0;
+			right: 0;
+			bottom: 0;
+			width: 200px;
+			background: #3FA9F5;
+			height: 3px;
+			margin: auto;
+		}
+	}
+	.sub-heading {
+		font-size: 16px;
+		font-family: "RSL";
+		strong {
+			color: #000000;
+			font-family: "RSB";
+		}
+	}
+	.icon-wrapper {
+		width: 125px;
+		height: 125px;
+		border-radius: 100%;
+		overflow: hidden;
+		position: relative;
+		margin: auto;
 	}
 }
